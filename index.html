@@ -14,8 +14,8 @@
     </header>
 
     <form id="product-form">
-      <input type="text" id="product-name" placeholder="Product name" required />
-      <input type="url" id="product-url" placeholder="Product URL" required />
+      <input type="text" id="product-desc" placeholder="Product description" required />
+      <input type="text" id="product-brand" placeholder="Brand" required />
       <input type="number" id="target-price" placeholder="Target price (optional)" min="0" step="0.01" />
       <button type="submit">Add</button>
     </form>
@@ -23,7 +23,9 @@
     <table>
       <thead>
         <tr>
+          <th>Image</th>
           <th>Product</th>
+          <th>Brand</th>
           <th>Official</th>
           <th>Lowest</th>
           <th>Target</th>
